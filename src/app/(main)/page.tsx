@@ -1,22 +1,15 @@
-'use client'
-
+import Category from '../components/category'
 import styles from '../page.module.scss'
 
 export default function Home() {
+
   return (
     <main className={styles.main}>
       <div className={styles.title}>
-        <p>Benf Restaurente</p>
-        <span>Mesa do amigo</span>
+        <p>Benfica Restaurante</p>
+        <p>Mesa do Benfica</p>
       </div>
-      <section className={styles.menus}>
-        <div>
-          Cerveja
-        </div>
-        <div>
-          Japones
-        </div>
-      </section>
-    </main>
+      <Category />
+    </main >
   )
 }

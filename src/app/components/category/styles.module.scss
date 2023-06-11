@@ -1,13 +1,17 @@
 .category {
   > div {
-    padding: 10px;
     border-radius: 12px;
-    margin-bottom: 10px;
+    // margin-bottom: 10px;
   }
 }
 
 .descriptionItem {
   display: flex;
   background-color: red;
-  transition: background-color 1s ease;
+}
+
+.card {
+  background-color: blue;
+  border-radius: 20px;
+  padding: 20px;
 }
