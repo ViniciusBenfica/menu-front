@@ -1,15 +1,14 @@
-import Category from '../components/category'
-import styles from '../page.module.scss'
+import React from 'react';
+import Category from '../components/category';
 
 export default function Home() {
-
   return (
-    <main className={styles.main}>
-      <div className={styles.title}>
-        <p>Benfica Restaurante</p>
-        <p>Mesa do Benfica</p>
+    <main>
+      <div className=" flex flex-col justify-between p-24 p-24 p-24 p-24 p-24 p-24 p-24 p-24 p-24 p-24 p-24 p-24 p-24 p-8">
+        <p>Restaurante</p>
+        <p>Mesa 15</p>
       </div>
       <Category />
-    </main >
-  )
+    </main>
+  );
 }
